@@ -115,6 +115,7 @@ span{
 
 .caracteristicas{
     display: flex;
+    flex-wrap: wrap;
 }
 .caracteristicas div{
     display: flex;
