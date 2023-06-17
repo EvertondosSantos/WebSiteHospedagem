@@ -115,7 +115,7 @@ span{
 
 .caracteristicas{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .caracteristicas div{
     display: flex;
@@ -127,6 +127,7 @@ span{
 
 .caracteristicas img, .caracteristicas h4, .caracteristicas p{
     margin: 10px auto;
+    /* max-width: 33%; */
 }
 
 .caracteristicas img{
