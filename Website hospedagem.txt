@@ -1,0 +1,21 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+Paletas de cores utilizadas na página Home:
+#fff
+#f1f3f7
+#f6f6f6
+#a89f9f
+#233032
+#2f86d6
+
+Paletas de cores utilizadas na página Tabela de Preços:
+#fff
+#f1f3f7
+#f6f6f6
+#a8a4a4
+#233032
+#2f86d6
+rgba(47, 134, 214, 1)
+

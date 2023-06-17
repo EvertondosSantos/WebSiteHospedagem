@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+span{
+    color: #2f86d6;
+}
+
+.secao{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    /* border: red .5px solid; */
+}
+
+.redTamanho{
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: lawngreen solid ; */
+}
+
+
+#topo,#rodape{
+    background-color: #2f86d6;
+    padding: 35px 0px;
+}
+
+#topo a, #topo p, .rodape span{
+    color: #fff;
+}
+
+.topo img, .rodape img{
+    width: 80px;
+}
+.topo .logo, .rodape .logo{
+    display: flex;
+}
+
+#topo a{
+    font-weight: 600;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+#topo a:hover{
+    color: #233032;
+}
+
+#tabeladeprecos{
+    margin: 80px auto;
+    line-height: 40px;
+}
+
+.tabeladeprecos table{
+    width: 100%;
+}
+
+.tabeladeprecos table tr div{
+    width: 10px;
+    height: 10px;
+    background-color: #2f86d6;
+    border-radius: 50%;
+}
+
+
+.tabeladeprecos table th{
+    background-color: #f1f3f7;
+    border: .5px solid #f1f3f7;
+}
+
+.tabeladeprecos table thead td{
+    background-color: #fff;
+}
+
+.tabeladeprecos table tbody td{
+    background-color: #fff;
+    text-align: center;
+}
+
+.tabeladeprecos table tbody div{
+    margin: 0 auto;
+}
+
+.tabeladeprecos table tbody td{
+    border: .5px solid #f1f3f7;
+}
+
+.tabeladeprecos table p, .tabeladeprecos table td{
+    font-size: 11px;
+}
+.tabeladeprecos table th{
+    font-weight: 500;
+    font-size: 12px;
+}
+.tabeladeprecos table thead th{
+    font-size: 24px;
+    padding: 10px;
+}
+
+#rodape{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+}
+.rodape{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+.rodape div{
+    /* border: lightseagreen 1px solid; */
+    margin-top: 35px;
+}
+
+.rodape .logo{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape .textoLogo{
+    margin: auto;
+}
+.rodape p{
+    color: #fff;
+}
+.desenvolvido{
+    padding: 15px 0px;
+    font-weight: 500;
+    background-color: #f1f3f7;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
